@@ -18,7 +18,7 @@ As I am a Software Engineer I am addicted to my notebook and the internet. So I 
 
 After I hit the checkout button I immediately received a web session from the hotel's WiFi system. I went for the stuff as usual and after some time I ended up trying to get into Facebook when my Google Chrome browser presented me a notice.
 
-<img style="height:20em;width:30em" src="/images/london_spying-chrome_alert.jpg" />
+<img style="height:20em;width:30em" src="/public/images/london_spying-chrome_alert.jpg" />
 
 - Wow! Go PIA! Blocked.
 - Lost session
@@ -26,5 +26,5 @@ After I hit the checkout button I immediately received a web session from the ho
 - Entered login credential
 - Suddenly before hit "enable internt" saw URL
 
-<img style="height:20em;width:30em" alt="Image showing Bridgestreet London Bridge Hotel's WiFi login screen sending login data to a URL that has a query string parameter called 'PRISMID'" title="Image showing Bridgestreet London Bridge Hotel's WiFi login screen sending login data to a URL that has a query string parameter called 'PRISMID'"  src="/images/london_spying-wifi-login-prismid.jpg" />
+<img style="height:20em;width:30em" alt="Image showing Bridgestreet London Bridge Hotel's WiFi login screen sending login data to a URL that has a query string parameter called 'PRISMID'" title="Image showing Bridgestreet London Bridge Hotel's WiFi login screen sending login data to a URL that has a query string parameter called 'PRISMID'"  src="/public/images/london_spying-wifi-login-prismid.jpg" />
 

@@ -7,7 +7,7 @@
     <link href="http://gmpg.org/xfn/11" rel="profile">
 
     <title>
-      
+      London Spying! - My PRISM story &middot; 
       /dev/null by Martin Biermann
     </title>
 
@@ -47,54 +47,10 @@
     </header>
 
     <div class="content container">
-      <div class="posts">
-  
-  <div class="post">
-    <h1>
-      <a href="/tech/2013/11/15/fixing-chef-in-ubuntu-precise64-box-for-vagrant-2/">
-        Fixing Chef version in Ubuntu precise64 box for Vagrant 2.0
-      </a>
-    </h1>
-
-    <span class="post-date">15 Nov 2013</span>
-
-    <p>I upgraded <a href="http://www.vagrantup.com/">Vagrant</a> on my workstation to version 2.0 a couple of weeks ago. Whenever I ran a project now, that I have worked on using Vagrant in the past, I was prompted with this message:</p>
-
-<pre><code>There were warnings and/or errors while loading your Vagrantfile
-for the machine 'default'.
-
-Your Vagrantfile was written for an earlier version of Vagrant,
-and while Vagrant does the best it can to remain backwards
-compatible, there are some cases where things have changed
-significantly enough to warrant a message. These messages are
-shown below.
-
-Warnings:
-* `config.vm.customize` calls are VirtualBox-specific. If you're
-using any other provider, you'll have to use config.vm.provider in a
-v2 configuration block.
-</code></pre>
-
-<p>The message was telling that the <code>Vagrantfile</code> configuration file should be updated to a new schema, but for the time being the new version of Vagrant would be <a href="http://docs.vagrantup.com/v2/installation/backwards-compatibility.html">backwards compatible</a> with that configuration.</p>
-
-<p>Actually this turned out to be true. At least for some days. I use Chef to provision my development environment virtual machine in Vagrant. When running <code>vagrant up</code> on some of my projects now, cookbooks did not compile anymore. I thought this was an issue with a Ruby version that is installed wo the virtual machine. So it took some time of investigation and it turned out that actually Vagrant does not keep track on the upstream of Chef. The virtual machine did not run any recent version of Chef, but cookbooks keep track of the recent development and adopted new Chef schemas, at least the common ones.</p>
-
-<p>In all the projects I work on that are powered by a Vagrant environment I use the Ubuntu precise 64 bit AMD Vagrant box (You can find out more about Vagrant boxes <a href="www.vagrantbox.es">here</a>). That box I get from <code>http://files.vagrantup.com/precise64.box</code> and right now it boils down to <code>Ubuntu 12.04 LTS (GNU/Linux 3.2.0-23-generic x86_64)</code>. That box currently runs Chef version 10.14.2. Actually the latest version of Chef, which I would expect the cookbooks to refer to, is 11.8.0.</p>
-
-<p>Now there are several ways to make your box to take up with the latest version of Chef. You can include code in the Vagrantfile to do that 'manually' via aptitude or go vor any Ubuntu-specific package management tool. However, I found a very handy way of doing that on <a href="http://stackoverflow.com/questions/11325479/how-to-control-the-version-of-chef-that-vagrant-uses-to-provision-vms/18213542#18213542">StackOverflow</a>, which solved the problem easily. I used a Vagrant plugin called omnibus. To install the plugin on the host machine I simply ran <code>vagrant plugin install vagrant-omnibus</code>. To make my project's virtual machine use the latest version of Chef I included <code>config.omnibus.chef_version = :latest</code> before the provisioning specifications in the Vagrantfile.</p>
-
-  </div>
-  
-  <div class="post">
-    <h1>
-      <a href="/travel/2013/11/14/london-stay-spying/">
-        London Spying! - My PRISM story
-      </a>
-    </h1>
-
-    <span class="post-date">14 Nov 2013</span>
-
-    <p>In Germany there was some buzz around the PRISM program. Well yeah....some. Voices got risen but as with every news in Germany people went back to normal life when the media stopped reporting.
+      <div class="post">
+  <h1>London Spying! - My PRISM story</h1>
+  <span class="post-date">14 Nov 2013</span>
+  <p>In Germany there was some buzz around the PRISM program. Well yeah....some. Voices got risen but as with every news in Germany people went back to normal life when the media stopped reporting.
 In the following I want to present a story that brought the topic back to my mind. I actually got right in a situation a few weeks ago I only heard the radio. This time it was me who got spied; by the government - probably, to be cautious.</p>
 
 <p>In the beginning of this week I was one of a happy few that were able to attent this years O'Reilly Strata conference in London. Actually I don't want to leave any words about the conference itself, but rather about the time I spend in London.</p>
@@ -120,19 +76,24 @@ In the following I want to present a story that brought the topic back to my min
 
 <p><img style="height:20em;width:30em" alt="Image showing Bridgestreet London Bridge Hotel's WiFi login screen sending login data to a URL that has a query string parameter called 'PRISMID'" title="Image showing Bridgestreet London Bridge Hotel's WiFi login screen sending login data to a URL that has a query string parameter called 'PRISMID'"  src="/public/images/london_spying-wifi-login-prismid.jpg" /></p>
 
-  </div>
-  
 </div>
 
-<!-- Pagination links -->
-<div class="pagination">
-  
-    <span class="next">Older</span>
-  
-  
-    <span class="previous">Newer</span>
-  
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/tech/2013/11/15/fixing-chef-in-ubuntu-precise64-box-for-vagrant-2/">
+            Fixing Chef version in Ubuntu precise64 box for Vagrant 2.0
+            <small>15 Nov 2013</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
 </div>
+
     </div>
 
   </body>

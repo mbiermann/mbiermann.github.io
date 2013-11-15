@@ -1,3 +1,10 @@
-name: /dev/null
-markdown: redcarpet
-pygments: true
+title:        /dev/null 
+tagline:      "/dev/null by Martin Biermann"
+url:          http://mbiermann.github.io
+author:
+  name:       "Martin Biermann"
+  email:      "info@martinbiermann.com"
+markdown:     rdiscount
+permalink:    pretty
+pygments:     true
+paginate:     5
