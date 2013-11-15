@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>/dev/null</title>
- <link href="http://mbiermann.github.io/atom.xml" rel="self"/>
- <link href="http://mbiermann.github.io/"/>
- <updated>2013-11-15T17:52:11+01:00</updated>
- <id>http://mbiermann.github.io</id>
+ <link href="http://devnull.martinbiermann.com/atom.xml" rel="self"/>
+ <link href="http://devnull.martinbiermann.com/"/>
+ <updated>2013-11-15T23:14:40+01:00</updated>
+ <id>http://devnull.martinbiermann.com</id>
  <author>
    <name>Martin Biermann</name>
    <email>info@martinbiermann.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Fixing Chef version in Ubuntu precise64 box for Vagrant 2.0</title>
-   <link href="http://mbiermann.github.io/tech/2013/11/15/fixing-chef-in-ubuntu-precise64-box-for-vagrant-2/"/>
+   <link href="http://devnull.martinbiermann.com/tech/2013/11/15/fixing-chef-in-ubuntu-precise64-box-for-vagrant-2/"/>
    <updated>2013-11-15T13:00:00Z</updated>
-   <id>http://mbiermann.github.io/tech/2013/11/15/fixing-chef-in-ubuntu-precise64-box-for-vagrant-2</id>
+   <id>http://devnull.martinbiermann.com/tech/2013/11/15/fixing-chef-in-ubuntu-precise64-box-for-vagrant-2</id>
    <content type="html">&lt;p&gt;I upgraded &lt;a href=&quot;http://www.vagrantup.com/&quot;&gt;Vagrant&lt;/a&gt; on my workstation to version 2.0 a couple of weeks ago. Whenever I ran a project now, that I have worked on using Vagrant in the past, I was prompted with this message:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;There were warnings and/or errors while loading your Vagrantfile
@@ -46,9 +46,9 @@ v2 configuration block.
  
  <entry>
    <title>London Spying! - My PRISM story</title>
-   <link href="http://mbiermann.github.io/travel/2013/11/14/london-stay-spying/"/>
+   <link href="http://devnull.martinbiermann.com/travel/2013/11/14/london-stay-spying/"/>
    <updated>2013-11-14T15:45:38Z</updated>
-   <id>http://mbiermann.github.io/travel/2013/11/14/london-stay-spying</id>
+   <id>http://devnull.martinbiermann.com/travel/2013/11/14/london-stay-spying</id>
    <content type="html">&lt;p&gt;In Germany there was some buzz around the PRISM program. Well yeah....some. Voices got risen but as with every news in Germany people went back to normal life when the media stopped reporting.
 In the following I want to present a story that brought the topic back to my mind. I actually got right in a situation a few weeks ago I only heard the radio. This time it was me who got spied; by the government - probably, to be cautious.&lt;/p&gt;
 
