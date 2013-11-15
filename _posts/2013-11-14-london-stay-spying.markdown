@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "London Spying! - My PRISM story"
-date:   2013-11-14 15:45:38
+layout: 	post
+title:  	"London Spying! - My PRISM story"
+date:   	2013-11-14 15:45:38
 categories: Travel
+comments:	true
 ---
 
 In Germany there was some buzz around the PRISM program. Well yeah....some. Voices got risen but as with every news in Germany people went back to normal life when the media stopped reporting.

@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Fixing Chef version in Ubuntu precise64 box for Vagrant 2.0"
-date:   2013-11-15 13:00:00
+layout: 	post
+title:  	"Fixing Chef version in Ubuntu precise64 box for Vagrant 2.0"
+date:   	2013-11-15 13:00:00
 categories: Tech
+comments:	true
 ---
 
 I upgraded [Vagrant](http://www.vagrantup.com/) on my workstation to version 2.0 a couple of weeks ago. Whenever I ran a project now, that I have worked on using Vagrant in the past, I was prompted with this message:
